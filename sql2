@@ -1,0 +1,13 @@
+UPDATE table_name
+ SET column1 = value1, column2 = value2, ...
+ WHERE condition;
+ 
+ UPDATE menu
+ SET item = 'chocolate croissant', date = 2022-12-16
+ WHERE id = 2;
+ DELETE FROM table_name WHERE condition;
+ 
+ DELETE FROM menu WHERE item_name='bread';
+ 
+ 
+ DELETE FROM menu;
